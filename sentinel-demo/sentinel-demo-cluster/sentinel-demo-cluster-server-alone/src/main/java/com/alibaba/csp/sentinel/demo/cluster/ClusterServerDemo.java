@@ -46,5 +46,8 @@ public class ClusterServerDemo {
 
         // Start the server.
         tokenServer.start();
+        
+        // do something
+        tokenServer.stop();
     }
 }
